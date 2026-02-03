@@ -33,3 +33,8 @@ python3 calcolatrice.py
 ```
 
 
+## Esecuzione dei test
+
+```shell
+pytest -v
+```
