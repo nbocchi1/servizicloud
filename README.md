@@ -14,3 +14,11 @@ Attivare l'ambiente virtuale
 source .venv/bin/activate  (Linux/Mac)
 .venv\Scripts\activate    (Windows)    
 ```
+
+## Utilizzo 
+
+```shell
+uv run python calcolatrice.py
+```
+
+
