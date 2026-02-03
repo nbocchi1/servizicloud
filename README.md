@@ -38,3 +38,19 @@ python3 calcolatrice.py
 ```shell
 pytest -v
 ```
+
+## Dockerfile
+
+Per costruire l'immagine Docker
+
+```shell
+docker build -f Dockerfile.debian -t calcolatrice:debian .
+docker build -f Dockerfile -t calcolatrice:alpine .
+```
+
+Per eseguire il container
+
+```shell
+docker run -it --rm calcolatrice:local
+docker run -it --rm calcolatrice:alpine
+```
